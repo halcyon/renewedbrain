@@ -3,13 +3,14 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Scott McLeod -- @deepresolve
+    Joshua Jordan -- @Joshua_N_Jordan
 
 # THANKS
 
-    <name>
+    Mason Costa -- @MasonCosta85
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+    Normalize.css, jQuery, Modernizr, Animate.css, WOW.js
