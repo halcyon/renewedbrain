@@ -74,22 +74,6 @@ module.exports = function(grunt) {
     },
 
     /**
-     * HTML Tidy
-     */
-    htmltidy: {
-      options: {
-        indent: true,
-        'wrap-script-literals': false,
-        'indent-spaces': 2
-      },
-      compile: {
-        files: {
-          'index.html': ['index.html']
-        }
-      },
-    },
-
-    /**
      * Watch
      */
     watch: {
