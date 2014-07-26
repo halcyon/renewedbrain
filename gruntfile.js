@@ -79,6 +79,7 @@ module.exports = function(grunt) {
     htmltidy: {
       options: {
         indent: true,
+        'wrap-script-literals': false,
         'indent-spaces': 2
       },
       compile: {
