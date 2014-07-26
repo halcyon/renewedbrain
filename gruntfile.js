@@ -74,6 +74,21 @@ module.exports = function(grunt) {
     },
 
     /**
+     * HTML Tidy
+     */
+    htmltidy: {
+      options: {
+        indent: true,
+        'indent-spaces': 2
+      },
+      compile: {
+        files: {
+          'index.html': ['index.html']
+        }
+      },
+    },
+
+    /**
      * Watch
      */
     watch: {
@@ -95,7 +110,7 @@ module.exports = function(grunt) {
    */
   grunt.registerTask('default', [
     'sass:dev',
-    'watch'
+    'watch',
   ]);
 
 };
