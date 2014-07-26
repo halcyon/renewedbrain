@@ -56,7 +56,7 @@ module.exports = function(grunt) {
         options: {
           style: 'expanded',
           banner: '<%= tag.banner %>',
-          compass: false
+          compass: true
         },
         files: {
           '<%= project.assets %>/css/style.css': '<%= project.css %>'
@@ -65,7 +65,7 @@ module.exports = function(grunt) {
       dist: {
         options: {
           style: 'compressed',
-          compass: false
+          compass: true
         },
         files: {
           '<%= project.assets %>/css/style.css': '<%= project.css %>'
