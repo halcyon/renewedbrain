@@ -13,7 +13,7 @@ body {
 }
 */
 body {
-  margin: 0px;
+  margin: 0em;
 }
 
 #header {
@@ -27,7 +27,7 @@ body {
 }
 
 #banner {
-  height: 960px;
+  height: 100px;
   background-color: $yeoman-teal;
   padding-top: 50px;
 }
@@ -99,4 +99,5 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Slab', serif;
+  margin: 0em;
 }
