@@ -1,14 +1,102 @@
 /*$primary-color: #333;*/
+$off-black: #1f1f1f;
+$yeoman-teal: #5aadbb;
+$dark-blue: #1d365d;
+$light-blue: lightblue;
+$dark-green: darkgreen;
+$grey: grey;
+$white: #ffffff;
 
+/*
 body {
-/*  color: $primary-color; */
+  background-color: $yeoman-teal;
+}
+*/
+body {
+  margin: 0px;
+}
+
+#header {
+  height: 50px;
+  background-color: $off-black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 12;
+}
+
+#banner {
+  height: 960px;
+  background-color: $yeoman-teal;
   padding-top: 50px;
 }
 
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
+#welcome {
+  height: 960px;
+  background-color: $light-blue;
 }
-.navbar-custom .navbar-collapse {
-    float:left;
+
+#services {
+  height: 960px;
+  background: url("../img/folder-pattern.png") top left repeat;
+}
+
+#brain-injury {
+  height: 960px;
+  background: url("../img/image-pattern.jpg") top left repeat;
+}
+
+#learning-disabilities {
+  height: 960px;
+  background-color: $dark-blue;
+}
+
+#dimentia {
+  height: 960px;
+  background-color: $dark-green;
+}
+
+#chronic-pain {
+  height: 960px;
+  background-color: $light-blue;
+}
+
+#contact {
+  height: 960px;
+  background-color: $dark-blue;
+}
+
+#forms {
+  height: 960px;
+  background-color: $grey;
+}
+
+.jumbotron {
+  color: $white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  line-height: 1.2em;
+  font-weight: normal;
+  & h2 {
+    @extend .jumbotron;
+    font-size: 3em;
+    margin-top: 0em;
+    margin-bottom: .25em;
+  }
+  & h3 {
+    @extend .jumbotron;
+    font-size: 1.5em;
+    margin-top: .05em;
+  }
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
 }
