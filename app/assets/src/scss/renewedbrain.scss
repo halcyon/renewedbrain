@@ -12,6 +12,13 @@ body {
   background-color: $yeoman-teal;
 }
 */
+
+html {
+  background: url('http://psychandneuro.duke.edu/uploads/media_items/brain-scan.1024.768.c.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 body {
   margin: 0em;
 }
